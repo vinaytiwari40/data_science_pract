@@ -1,0 +1,31 @@
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+
+[NbConvertApp] Executing notebook with kernel: python3
+
+Error in atexit._run_exitfuncs:
+
+Traceback (most recent call last):
+
+  File "/opt/conda/lib/python3.6/logging/__init__.py", line 1944, in shutdown
+
+    h.flush()
+
+  File "/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py", line 891, in flush
+
+    self._current_handler.flush()
+
+  File "/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py", line 785, in flush
+
+    self.stream.flush()
+
+  File "/opt/conda/lib/python3.6/site-packages/ipykernel/iostream.py", line 341, in flush
+
+    if self.pub_thread.thread.is_alive():
+
+AttributeError: 'NoneType' object has no attribute 'thread'
+
+[NbConvertApp] Writing 27737 bytes to __notebook__.ipynb
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+
+[NbConvertApp] Writing 305689 bytes to __results__.html
